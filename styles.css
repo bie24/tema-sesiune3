@@ -4,8 +4,8 @@ body{
 
 .content-box{
     width: 35rem;
-    height: 100%;
-    padding: 20px;
+    min-height: calc(100vh - 2.875rem);
+    padding: 1rem;
     background: rgba(229, 229, 249, 0.5);
     margin: auto;
     border-radius: 1rem;
@@ -31,12 +31,10 @@ h1{
 
 .nav li{
     list-style: none;
-}
-
-span{
-    font-size: 1.5rem;
-    font-weight: bold;
-    font-family: 'Berkshire Swash', cursive;    
+    font-size: 1rem;
+    padding: 0.4rem;
+    border-inline-end: 0.3rem solid black;
+    border-radius: 1rem;
 }
 
 #acasa{
@@ -47,7 +45,7 @@ span{
 
 .content-box2{
     width: 32rem;
-    height: 30rem;
+    height: 35rem;
     padding: 1rem;
     background: transparent;
     margin: auto;
